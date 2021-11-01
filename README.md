@@ -1,5 +1,7 @@
 ### Airwallex test
 
+##### Preview: https://airwallex-test.vercel.app/
+
 #### ZH：
 
 项目基于 react ，组件方面0依赖。[因为页面比较简单，就不引入ts和css module了]
