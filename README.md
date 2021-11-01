@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+### Airwallex test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### ZH：
 
-## Available Scripts
+项目基于 react ，组件方面0依赖。[因为页面比较简单，就不引入ts和css module了]
 
-In the project directory, you can run:
+本机环境： node: 15.2.1
 
-### `yarn start`
+>  启动方式
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+yarn start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> 构建
 
-### `yarn test`
+yarn build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> 目录结构
 
-### `yarn build`
+主要分为三个文件 App.js , InviteModal.js, tool.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- App.js: 主页面UI，分为头、身体、脚
+- InviteModal.js: 核心modal和form ， 包含了fetch请求，以及一个简单异常提示
+- tool.js: validate的部分抽出来做校验
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### EN：
+The project is based on react and has zero dependencies on components. [Because the page is relatively simple, ts and css modules are not imported]
 
-### `yarn eject`
+Mainly divided into three files App.js, InviteModal.js, tool.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- App.js: Main page UI, divided into head, body, and foot
+- InviteModal.js: core modal and form, including fetch request, and a simple exception prompt
+- tool.js: The validate part is extracted for verification
