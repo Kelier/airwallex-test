@@ -136,7 +136,7 @@ body,
   border: 1px solid #000;
   height: 2rem;
   transition: all 0.3s ease-out;
-  filter: drop-shadow(2px 4px 6px black);
+  box-shadow: 2px 4px 6px #000;
   color: #fff;
   background: #000;
   outline: none;

@@ -110,6 +110,7 @@ export function InviteModal(Props) {
             const handler = (event) => {
                 if (modalRef.current && !modalRef.current.contains(event.target)) {
                     // 点击外层消失
+                    console.log(isAccomplish)
                     if (isAccomplish) {
                         // 这时候可以选择清空表单
                         // 多判断isAccomplish 因为此时点击外层也可以直接消失
@@ -126,7 +127,7 @@ export function InviteModal(Props) {
             }
         }
         /* eslint-disable */ 
-    }, [isShow, onClose])
+    }, [isShow, onClose, isAccomplish])
 
     const modalWrapper = <div className="invite-modal-entry">
         <div className="invite-modal" ref={modalRef}>
